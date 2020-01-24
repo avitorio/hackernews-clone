@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.osx": "zsh",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+
+  "workbench.colorTheme": "Dracula",
+  "editor.rulers": [80, 120],
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Eslint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typecript",
+    "typecriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
