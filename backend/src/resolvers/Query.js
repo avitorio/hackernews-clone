@@ -28,9 +28,8 @@ async function feed(root, args, context, info) {
     links,
     count
   };
-
-  return links;
 }
+
 function link(parent, { id }, context) {
   return context.prisma.link({ id });
 }
